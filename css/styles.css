@@ -1,3 +1,7 @@
+.images{
+    overflow: hidden;
+}
+
 .images__item{
     padding: 280px 0;
     outline: 1px solid blue;
@@ -9,6 +13,9 @@
 .images__item:first-child{
     padding-top: 65px;
 }
+
+img { min-height: 200px; background-color: #f0f0f0; }
+/* якщо фотка не загружена то в ней будуть ці стилі */
 
 .images__img{
     max-height: 600px;
